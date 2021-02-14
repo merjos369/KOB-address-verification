@@ -1,20 +1,20 @@
 # KOB ADDRESS VERIFICATION SERVICE
 ## Introduction
--A user uses this service to get a digital domicile credential which proves their domicile. It is useful in a situation when the user has to prove his/her domicile for some needs.
--A domicile credential is a proven claim that a particular person reside in a specific area, issued by an authority.
--The domicile credential, driving license and similar documents are currently printed on paper - paper credentials stored in a user's wallets.
--By bringing the concept of digital verifiable credentials to picture, paper credentials are replaced by digital certificates.
--These digital credentials are stored in digital wallets which is an android application which act as a data store on cloud.
+- A user uses this service to get a digital domicile credential which proves their domicile. It is useful in a situation when the user has to prove his/her domicile for some needs.
+- A domicile credential is a proven claim that a particular person reside in a specific area, issued by an authority.
+- The domicile credential, driving license and similar documents are currently printed on paper - paper credentials stored in a user's wallets.
+- By bringing the concept of digital verifiable credentials to picture, paper credentials are replaced by digital certificates.
+- These digital credentials are stored in digital wallets which is an android application which act as a data store on cloud.
 ## How are digital credentials better ?
-Problem 1: Centralised Identifiers(A central authority issues the paper credentials, control the credentials and have the right to revoke them).
+1. Problem 1: Centralised Identifiers(A central authority issues the paper credentials, control the credentials and have the right to revoke them).
 Can revoke documents at any time or an attack can destroy all data.
 Solution: DID gives power back to individuals and a documents on Blockchain cannot be deleted.
-Problem 2: Paper Credentials are easy to forge:
+2. Problem 2: Paper Credentials are easy to forge:
 In the current situation, a digitally signed certificate is downloaded and obtained as a printout.
 Solution: Digital credentials which are protected cryptographically.
-Problem 3: Issue of paper credentials depend on the experience and expertise of issuer (Ration card Address proof – passport, voter card, ration card, electricity bill, water bill, telephone bill, house tax receipt, birth Certificate or SSLC certificate, identity Proof are the documents to be cross checked) and is time consuming (Average time required is 2-3 days).
+3. Problem 3: Issue of paper credentials depend on the experience and expertise of issuer (Ration card Address proof – passport, voter card, ration card, electricity bill, water bill, telephone bill, house tax receipt, birth Certificate or SSLC certificate, identity Proof are the documents to be cross checked) and is time consuming (Average time required is 2-3 days).
 Solution: Digital credentials are proven by using crypto calculations and saves time.
-Problem 4: Inaccessibility issues:
+4. Problem 4: Inaccessibility issues:
 Solution: Globally accessible verifiable credentials.
 ## Key Terms
 The four major attributes of any credential are:
