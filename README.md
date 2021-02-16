@@ -18,8 +18,8 @@ Below are some of the problems with the current situation of issuing and verifyi
 - Can revoke documents at any time or an attack can destroy all data.
 2. Ease to forge: 
 - A digitally signed certificate is downloaded and obtained as a printout, which is very easy to forge.
-3. Issue and verification solely depend on the experience and expertise of issuer 
-(Ration card, address proof and identity proof are the documents to be cross checked) and the process is time consuming (Average time required is 2-3 days).
+3. Issue and verification solely depend on the experience and expertise of issuer.
+- (Ration card, address proof and identity proof are the documents to be cross checked) and the process is time consuming (Average time required is 2-3 days).
 4. Inaccessibility issues.
 
 ## Status of the project:
@@ -44,8 +44,7 @@ Merlin Joseph(https://github.com/merjos369)
 - https://kerala.gov.in/documents/10180/a3d88f49-3786-47f1-8b37-5b198b8bebaf
 - https://edistrict.kerala.gov.in/openSearch.do?openStat=openSearch
 - https://www.edx.org/professional-certificate/linuxfoundationx-developing-blockchain-based-identity-applications
-- https://www.orgbook.gov.bc.ca/en/home
-- 
+- https://www.orgbook.gov.bc.ca/en/home 
 
 ## Key Terms
 The four major attributes of any credential are:
