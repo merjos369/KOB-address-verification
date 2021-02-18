@@ -1,5 +1,5 @@
 ## KOB Address Verification Service
-_TBD_
+Version: _TBD_
 
 ## Abstract
 
@@ -40,9 +40,11 @@ So these authorities will never have the right to revoke the credentials as and 
  
 ## Contributors:
 
-[Merlin Joseph](https://github.com/merjos369).
+[Merlin Joseph](https://github.com/merjos369)
 
 ## Testing the project
+
+TBD
 
 ## References
 
