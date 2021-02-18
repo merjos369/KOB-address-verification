@@ -2,6 +2,7 @@
 Version: _TBD_
 
 ## Abstract
+_TBD_
 
  A user uses this service to get a digital domicile credential which proves
 their domicile. It is useful in a situation when the user has to prove his/her domicile for
