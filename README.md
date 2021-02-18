@@ -39,6 +39,8 @@ Verifiable credentials are cryptographically constructed and proves the four maj
   2. If the person producing the credentials is the person to whom the credential was issued to.
   3. If claims are tampered (If wrong address is given as the address to prove the domicile).
   4. If credential has been revoked by the authority?
+  
+  
   These do not depend upon a person's expertise who issues the credential, instead they are cryptographically protected using algorithms which aren't easy to forge. It is 
   mandatory to perform cryptocalculations to prove the attributes. Considerable amount of time can be saved when personal investigation is replaced by legitimate documents.
   
