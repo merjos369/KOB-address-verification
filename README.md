@@ -9,6 +9,8 @@ some needs. A domicile credential is a proven claim that a particular person res
 
 ## Dependent Projects
 
+
+
 ## Motivation
 
 - This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials. Domicile credntials are require when a person applies for an admission, job, education scholarships etc.
@@ -27,9 +29,12 @@ Incubation
 
 The Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized one. i.e. none of the credentials are created by the central authority. 
 So these authorities will never have the right to revoke the credentials as and when required, say in a situation where the government is trying to suppress its people. This is due to a impeccable feature of blockchain i.e. data, once sent to a blockchain network, cannot be deleted or removed from all the systems, it can only be updated. Thus DIDs give power back to individuals. 
-- Another problem with centralized identifiers is also solved by DIDs i.e. if the centralized authority is having a problem, say an attack, it lets the whole system down. But with DIDs, many copies of the given server will be available across the world. Thus making data globally accessible.
+
+Another problem with centralized identifiers is also solved by DIDs i.e. if the centralized authority is having a problem, say an attack, it lets the whole system down. But with DIDs, many copies of the given server will be available across the world. Thus making data globally accessible.
 (Simply explaining, DID is something similar to a URL, which is passed to a software called DID resolver, returns a DIDDoc, which is a JSON document, globally unique).
-- Verifiable credentials are cryptographically constructed and proves the four major attributes of any credential, which are
+
+
+Verifiable credentials are cryptographically constructed and proves the four major attributes of any credential, which are
   1. Issuer (Local Governing Body in case of a domicile credential).
   2. If the person producing the credentials is the person to whom the credential was issued to.
   3. If claims are tampered (If wrong address is given as the address to prove the domicile).
