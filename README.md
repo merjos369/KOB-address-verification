@@ -13,21 +13,18 @@ some needs. A domicile credential is a proven claim that a particular person res
 - This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials. Domicile credntials are require when a person applies for an admission, job, education scholarships etc.
 Below are some of the problems with the current situation of issuing and verifying the (paper) credentials:
 
-1. Centralised Identifiers (A central authority issues the paper credentials, control the credentials and have the right to revoke them): 
-- Can revoke documents at any time or an attack can destroy all data.
-2. Ease to forge: 
-- A digitally signed certificate is downloaded and obtained as a printout, which is very easy to forge.
-3. Issue and verification solely depend on the experience and expertise of issuer.
-- (Ration card, address proof and identity proof are the documents to be cross checked) and the process is time consuming (Average time required is 2-3 days).
+1. Centralised Identifiers (A central authority issues the paper credentials, control the credentials and have the right to revoke them): Can revoke documents at any time or an attack can destroy all data.
+2. Ease to forge: A digitally signed certificate is downloaded and obtained as a printout, which is very easy to forge.
+3. Issue and verification solely depend on the experience and expertise of issuer (Ration card, address proof and identity proof are the documents to be cross checked) and the process is time consuming (Average time required is 2-3 days).
 4. Inaccessibility issues.
 
 ## Status of the project:
 
 Incubation
 
-## Solution
+## Solution _TBD_
 
-- The Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized one. i.e. none of the credentials are created by the central authority. 
+The Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized one. i.e. none of the credentials are created by the central authority. 
 So these authorities will never have the right to revoke the credentials as and when required, say in a situation where the government is trying to suppress its people. This is due to a impeccable feature of blockchain i.e. data, once sent to a blockchain network, cannot be deleted or removed from all the systems, it can only be updated. Thus DIDs give power back to individuals. 
 - Another problem with centralized identifiers is also solved by DIDs i.e. if the centralized authority is having a problem, say an attack, it lets the whole system down. But with DIDs, many copies of the given server will be available across the world. Thus making data globally accessible.
 (Simply explaining, DID is something similar to a URL, which is passed to a software called DID resolver, returns a DIDDoc, which is a JSON document, globally unique).
@@ -38,10 +35,11 @@ So these authorities will never have the right to revoke the credentials as and 
   4. If credential has been revoked by the authority?
   These do not depend upon a person's expertise who issues the credential, instead they are cryptographically protected using algorithms which aren't easy to forge. It is 
   mandatory to perform cryptocalculations to prove the attributes. Considerable amount of time can be saved when personal investigation is replaced by legitimate documents.
+  
  
 ## Contributors:
 
-Merlin Joseph(https://github.com/merjos369)
+[Merlin Joseph](https://github.com/merjos369).
 
 ## Testing the project
 
