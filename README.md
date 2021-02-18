@@ -13,7 +13,7 @@ some needs. A domicile credential is a proven claim that a particular person res
 
 ## Motivation
 
-- This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials. Domicile credntials are require when a person applies for an admission, job, education scholarships etc.
+This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials. Domicile credntials are require when a person applies for an admission, job, education scholarships etc.
 Below are some of the problems with the current situation of issuing and verifying the (paper) credentials:
 
 1. Centralised Identifiers (A central authority issues the paper credentials, control the credentials and have the right to revoke them): Can revoke documents at any time or an attack can destroy all data.
