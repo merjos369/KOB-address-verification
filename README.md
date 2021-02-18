@@ -25,7 +25,8 @@ Below are some of the problems with the current situation of issuing and verifyi
 
 Incubation
 
-## Solution _TBD_
+## Solution 
+_TBD_
 
 The Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized one. i.e. none of the credentials are created by the central authority. 
 So these authorities will never have the right to revoke the credentials as and when required, say in a situation where the government is trying to suppress its people. This is due to a impeccable feature of blockchain i.e. data, once sent to a blockchain network, cannot be deleted or removed from all the systems, it can only be updated. Thus DIDs give power back to individuals. 
