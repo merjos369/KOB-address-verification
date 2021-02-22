@@ -2,7 +2,6 @@
 Version: _TBD_
 
 ## Abstract
-_TBD_
 
  A user uses this service to get a digital domicile credential which proves
 their domicile. It is useful in a situation when the user has to prove his/her domicile for
@@ -17,20 +16,20 @@ some needs. A domicile credential is a proven claim that a particular person res
 This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials. Domicile credntials are require when a person applies for an admission, job, education scholarships etc.
 Below are some of the problems with the current situation of issuing and verifying the (paper) credentials:
 
-1. Centralised Identifiers (A central authority issues the paper credentials, control the credentials and have the right to revoke them): Can revoke documents at any time or an attack can destroy all data.
-2. Ease to forge: A digitally signed certificate is downloaded and obtained as a printout, which is very easy to forge.
+1. Credentials stored at a  centralized repository.
+2. Easy to forge: A digitally signed certificate is downloaded and obtained as a printout, which is very easy to forge.
 3. Issue and verification solely depend on the experience and expertise of issuer (Ration card, address proof and identity proof are the documents to be cross checked) and the process is time consuming (Average time required is 2-3 days).
-4. Inaccessibility issues.
+4. Inaccessibility issues: Any failure at the central repository affects information retrieval.
 
 ## Status of the project:
 
 Incubation
 
 ## Solution 
-_TBD_
+
 
 The Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized one. i.e. none of the credentials are created by the central authority. 
-So these authorities will never have the right to revoke the credentials as and when required, say in a situation where the government is trying to suppress its people. This is due to a impeccable feature of blockchain i.e. data, once sent to a blockchain network, cannot be deleted or removed from all the systems, it can only be updated. Thus DIDs give power back to individuals. 
+So these authorities will never have the right to revoke the credentials as and when required. This is due to a impeccable feature of blockchain i.e. data, once sent to a blockchain network, cannot be deleted or removed from all the systems, it can only be updated. Thus DIDs give power back to individuals. 
 
 Another problem with centralized identifiers is also solved by DIDs i.e. if the centralized authority is having a problem, say an attack, it lets the whole system down. But with DIDs, many copies of the given server will be available across the world. Thus making data globally accessible.
 (Simply explaining, DID is something similar to a URL, which is passed to a software called DID resolver, returns a DIDDoc, which is a JSON document, globally unique).
