@@ -7,9 +7,6 @@ Version: _TBD_
 their domicile. It is useful in a situation when the user has to prove his/her domicile for
 some needs. A domicile credential is a proven claim that a particular person reside in a specific area, issued by an authority.The domicile credential, driving license and similar documents are currently printed on paper known as paper credentials stored in users' wallets. By bringing the concept of digital verifiable credentials to picture, paper credentials are replaced by digital certificates which are stored in digital wallets which is an android application which act as a data store on cloud.
 
-## Dependent Projects
-
-
 
 ## Motivation
 
