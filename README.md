@@ -4,13 +4,13 @@ Version: _TBD_
 ## Abstract
 
  A user uses this service to get a digital domicile credential which proves
-their domicile. It is useful in a situation when the user has to prove his/her domicile for
-some needs. A domicile credential is a proven claim that a particular person reside in a specific area, issued by an authority.The domicile credential, driving license and similar documents are currently printed on paper known as paper credentials stored in users' wallets. By bringing the concept of digital verifiable credentials to picture, paper credentials are replaced by digital certificates which are stored in digital wallets which is an android application which act as a data store on cloud.
+their domicile. It is useful in a situation when the user or an organization has to prove his/her domicile for
+some needs. A domicile credential is a proven claim that a particular person reside in a specific area, issued by an authority.The domicile credential, permits and licenses and similar documents are currently printed on paper known as paper credentials. By bringing the concept of digital verifiable credentials to picture, paper credentials are replaced by digital certificates which are stored in digital wallets which is an android application which act as a data store on cloud.
 
 
 ## Motivation
 
-This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials. Domicile credntials are require when a person applies for an admission, job, education scholarships etc.
+This project, a part of Kochi Orgbook, is specifically meant for digitizing the process of verifying and issuing the domicile credentials for Organizations. Domicile credntials are require when an organization requires a permit, license etc.
 Below are some of the problems with the current situation of issuing and verifying the (paper) credentials:
 
 1. Credentials stored at a  centralized repository.
@@ -24,12 +24,9 @@ Incubation
 
 ## Solution 
 
+Basically the project aims to build a network of verifiable credential issuers/verifiers and holders. These Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized(DID) one-which are called SSI. SSI lets the organizations manage their verifiable credentials on their own. Also, with SSI, there will be many more ways to prove integirty of the organization, other than just username and password.
 
-The Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized one. i.e. none of the credentials are created by the central authority. 
-So these authorities will never have the right to revoke the credentials as and when required. This is due to a impeccable feature of blockchain i.e. data, once sent to a blockchain network, cannot be deleted or removed from all the systems, it can only be updated. Thus DIDs give power back to individuals. 
-
-Another problem with centralized identifiers is also solved by DIDs i.e. if the centralized authority is having a problem, say an attack, it lets the whole system down. But with DIDs, many copies of the given server will be available across the world. Thus making data globally accessible.
-(Simply explaining, DID is something similar to a URL, which is passed to a software called DID resolver, returns a DIDDoc, which is a JSON document, globally unique).
+Simply explaining, DID is something similar to a URL, which is passed to a software called DID resolver, returns a DIDDoc, which is a JSON document, globally unique.
 
 
 Verifiable credentials are cryptographically constructed and proves the four major attributes of any credential, which are
@@ -39,8 +36,20 @@ Verifiable credentials are cryptographically constructed and proves the four maj
   4. If credential has been revoked by the authority?
   
   
-  These do not depend upon a person's expertise who issues the credential, instead they are cryptographically protected using algorithms which aren't easy to forge. It is 
-  mandatory to perform cryptocalculations to prove the attributes. Considerable amount of time can be saved when personal investigation is replaced by legitimate documents.
+  In case of SSI, these do not depend upon a issuer's expertise , instead they are cryptographically protected using algorithms which aren't easy to forge (or other verification mechanisms like email and phone number verification). It is mandatory to perform cryptocalculations to prove the attributes. Considerable amount of time can be saved when personal investigation is replaced by legitimate documents.
+  
+Below is a demo of how verification can be performed:
+  
+  
+Steps:
+
+1. Installing a wallet (android application) in mobile device and complete the setting up steps.
+2. In a browser, give address to get a address verifiable credential.(?)
+3. Once address is verified, issuing service issues address credential.
+
+Thus the credential provided is verified and another credential is issued based on it-helps eliminate correlation.
+  
+  
   
  
 ## Contributors:
