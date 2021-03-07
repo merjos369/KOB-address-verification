@@ -21,6 +21,7 @@ Incubation
 Basically this project aims to build a network of verifiable credential issuers/verifiers and holders. These Verifiable Credentials are not dependent on centralized authority; instead it is a decentralized(DID) one-which are called SSI. SSI lets the users manage their verifiable credentials on their own. So the credentials cannot be revoked by the issuer without a solid reason.
 
 In case of SSI, genuinity do not depend upon the issuer's expertise , instead they are cryptographically protected using algorithms which aren't easy to forge. It is mandatory to perform cryptocalculations to prove the genuinity attributes. Considerable amount of time can be saved when personal investigation is replaced by already proven legitimate documents.
+
   
 Below is a demo of how verification can be performed:
 
