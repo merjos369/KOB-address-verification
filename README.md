@@ -23,8 +23,11 @@ Basically this project aims to build a network of verifiable credential issuers/
 In case of SSI, genuinity do not depend upon the issuer's expertise , instead they are cryptographically protected using algorithms which aren't easy to forge. It is mandatory to perform cryptocalculations to prove the genuinity attributes. Considerable amount of time can be saved when personal investigation is replaced by already proven legitimate documents.
   
 Below is a demo of how verification can be performed:
+
 Steps:
-![Step 1](C:\Users\merjo\Desktop\step1.png "Step 1").
+
+![Step 1](C:\Users\merjo\Desktop\step1.png "Step 1")
+
 
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
