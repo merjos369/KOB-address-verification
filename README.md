@@ -26,7 +26,7 @@ Below is a demo of how verification can be performed:
 
 Steps:
 
-<img src="C:\Users\merjo\Desktop\step1.png" />
+<img src="C:\Users\merjo\Desktop\step1.png"/>
 
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
