@@ -24,11 +24,8 @@ In case of SSI, genuinity do not depend upon the issuer's expertise , instead th
   
 Below is a demo of how verification can be performed:
 Steps:
-1. ![Step 1](C:\Users\merjo\Desktop "Step 1").
+![Step 1](C:\Users\merjo\Desktop\step1.png "Step 1").
 
-
-2. Verifying the address based on a genuine address proof issued by the local self governing body.
-3. Once address is verified, issuing service issues address credential.
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
 
