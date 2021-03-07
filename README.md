@@ -1,3 +1,4 @@
+
 ## KOB Address Verification Service
 Version: _TBD_
 
@@ -26,8 +27,23 @@ In case of SSI, genuinity do not depend upon the issuer's expertise , instead th
 Below is a demo of how verification can be performed:
 
 Steps:
+1. User/Holder requests for a domicile credential on the basis of a government approved address proof and issuer issues it after verifying the addresss proof:
 
-<img src="C:\Users\merjo\Desktop\step1.png"/>
+![st1](https://user-images.githubusercontent.com/61771598/110251492-ac7b6a00-7fa6-11eb-8b34-8d58f1b714cb.PNG)
+
+2. User recives the verifiable domicile credential in his wallet which is an android application:
+
+![st2](https://user-images.githubusercontent.com/61771598/110251500-b4d3a500-7fa6-11eb-8b53-3859302b61b2.PNG)
+
+3. User requests a service to a third party organization:
+![st3](https://user-images.githubusercontent.com/61771598/110251866-a1c1d480-7fa8-11eb-8e27-fb3c8f278685.PNG)
+
+4. The third party organization asks for the verifiable domicile credential:
+![st4](https://user-images.githubusercontent.com/61771598/110251503-b8ffc280-7fa6-11eb-8797-1560ee5c3d1b.PNG)
+
+5. User presents the credential and the third party organization verifies it. Service is granted after the verification:
+![st5](https://user-images.githubusercontent.com/61771598/110251506-bb621c80-7fa6-11eb-82a1-9b34e0d6e851.PNG)
+
 
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
