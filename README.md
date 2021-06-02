@@ -27,26 +27,21 @@ In case of SSI, genuinity do not depend upon the issuer's expertise , instead th
 Below is a demo of how verification can be performed:
 
 Steps:
-1. User/Holder requests for a domicile credential on the basis of a government approved address proof and issuer issues it after verifying the addresss proof:
+1. User/Holder requests for a domicile credential by entering name and address:
 
-![st1](https://user-images.githubusercontent.com/61771598/110251492-ac7b6a00-7fa6-11eb-8b34-8d58f1b714cb.PNG)
+2. The address is verified against a legitimate database. This service is provided by a third party digital service provider corresponding to a unique identification number such as the aadhaar number:
 
-2. User recives the verifiable domicile credential in his wallet which is an android application:
+3. If the address entered by the user matches, a verifiable credential is provided corresponding to the verification acknowledgement:
 
-![st2](https://user-images.githubusercontent.com/61771598/110251500-b4d3a500-7fa6-11eb-8b53-3859302b61b2.PNG)
+![image](https://user-images.githubusercontent.com/61771598/120430109-221f8800-c394-11eb-99a7-500d7190a1ee.png)
 
-3. User requests a service to a third party organization:
 
-![st3](https://user-images.githubusercontent.com/61771598/110251866-a1c1d480-7fa8-11eb-8e27-fb3c8f278685.PNG)
+4. User can store this verifiable credential in the wallet and provide access to it whenever a verifier asks for it:
 
-4. The third party organization asks for the verifiable domicile credential:
+![st2](https://user-images.githubusercontent.com/61771598/120429989-f13f5300-c393-11eb-8c25-4bda7b6193ed.PNG)
 
-![st4](https://user-images.githubusercontent.com/61771598/110251503-b8ffc280-7fa6-11eb-8797-1560ee5c3d1b.PNG)
 
-5. User presents the credential and the third party organization verifies it. Service is granted after the verification:
-
-![st5](https://user-images.githubusercontent.com/61771598/110251506-bb621c80-7fa6-11eb-82a1-9b34e0d6e851.PNG)
-
+![image](https://user-images.githubusercontent.com/61771598/120430070-12a03f00-c394-11eb-8e46-9ba66b6a57b0.png)
 
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
