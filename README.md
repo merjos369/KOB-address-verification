@@ -33,15 +33,15 @@ Steps:
 
 3. If the address entered by the user matches, a verifiable credential is provided corresponding to the verification acknowledgement:
 
-![image](https://user-images.githubusercontent.com/61771598/120430109-221f8800-c394-11eb-99a7-500d7190a1ee.png)
+![3rd party](https://user-images.githubusercontent.com/61771598/120431476-2cdb1c80-c396-11eb-8e72-74864cfb665b.png)
 
 
 4. User can store this verifiable credential in the wallet and provide access to it whenever a verifier asks for it:
 
-![st2](https://user-images.githubusercontent.com/61771598/120429989-f13f5300-c393-11eb-8c25-4bda7b6193ed.PNG)
+![st2](https://user-images.githubusercontent.com/61771598/120431512-39f80b80-c396-11eb-8cba-2cc3769694e7.PNG)
 
 
-![image](https://user-images.githubusercontent.com/61771598/120430070-12a03f00-c394-11eb-8e46-9ba66b6a57b0.png)
+![service](https://user-images.githubusercontent.com/61771598/120431709-7a578980-c396-11eb-840c-8027aa91a8f7.PNG)
 
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
