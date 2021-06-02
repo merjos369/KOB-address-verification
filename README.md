@@ -71,7 +71,8 @@ party agency is encrypted and saved as a DID document. This DID document is stor
 wallet or the association wallet. The user/association will be the only entity who can view the
 credential.
 
-<img src="whole.PNG" alt="KOB Address Verification System" />
+![whole](https://user-images.githubusercontent.com/61771598/120529738-68a7cd80-c3fa-11eb-8069-9144b5dc561e.PNG)
+
 
 Figure: KOB Address Verification System
 
@@ -139,8 +140,8 @@ agency should be capable of supporting both the verification service and the iss
 
 
 ## Usecase of KOB Address Verification Service
+![usecase (1)](https://user-images.githubusercontent.com/61771598/120529653-562d9400-c3fa-11eb-8b93-9b18219b2cbf.png)
 
-<img src="usecase (1).png" alt="KOB Address Verification System" />
 
 
 ## Contributors
@@ -167,3 +168,4 @@ TBD
 [https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtcPWfwKrr2qxOGx6yX0VgSK3QLK_5CqXdQ&usqp=CAU](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrtcPWfwKrr2qxOGx6yX0VgSK3QLK_5CqXdQ&usqp=CAU)
 
 [https://t3.ftcdn.net/jpg/02/87/29/60/360_F_287296039_VJdiavV0cHEkoI4Aj3n3ggfXBVxpNwTj.jpg](https://t3.ftcdn.net/jpg/02/87/29/60/360_F_287296039_VJdiavV0cHEkoI4Aj3n3ggfXBVxpNwTj.jpg)
+
