@@ -41,7 +41,7 @@ Steps:
 ![st2](https://user-images.githubusercontent.com/61771598/120431512-39f80b80-c396-11eb-8cba-2cc3769694e7.PNG)
 
 
-![service](https://user-images.githubusercontent.com/61771598/120431709-7a578980-c396-11eb-840c-8027aa91a8f7.PNG)
+![service](https://user-images.githubusercontent.com/61771598/120448554-4cc80b80-c3a9-11eb-9766-33c658bd588d.PNG)
 
 
 Thus the credential provided is verified and another credential is issued based on it which helps eliminate correlation.
