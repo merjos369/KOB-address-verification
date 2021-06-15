@@ -1,0 +1,17 @@
+site_name: KOB Address Verification Service
+theme:
+  name: material
+nav:
+    - Home: index.md
+    - Dependent Projects: Dependent Projects.md
+    - Abstract: Abstract.md
+    - Motivation: Motivation.md
+    - Status: Status.md
+    - Solution: Solution.md
+    - Usecase: Usecase.md
+    - Contributors: Contributors.md
+    - Testing: Testing.md
+    - References: References.md
+extra_css:
+  - stylesheets/extra.css
+
