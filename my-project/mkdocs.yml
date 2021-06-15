@@ -1,9 +1,0 @@
-site_name: KOB Address Verification Service
-theme:
-  name: material
-
-
-
-  
-extra_css:
-  - stylesheets/extra.css
